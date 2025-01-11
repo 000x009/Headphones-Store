@@ -1,0 +1,16 @@
+@import "./normalize.css";
+@import "/src/fonts/SFPro/stylesheet.css";
+
+:root {
+    --bg-color: #fff;
+    --secondary-bg-color: #EFEFF3;
+    --text-color: #000;
+}
+
+body {
+    font-family: 'SF Pro Text', Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    user-select: none;
+    padding-bottom: 30px;
+}
